@@ -23,14 +23,9 @@
         </div>
         <div class='container'>
             <h3>Get Started...</h3>
-            <p>Firstly identify which version of your linux distribution you
-            are using. If you are using a x64 bit system then you should
+            <p> If you are using a 64 bit system architecture then you should
             download the x64 PyLNP interface, and 32 bit should download i686
-            PyLNP interface. If you are using Debian/Ubuntu/mint/red Hat, you
-            should download the Python Qt 5 version, if you are using
-            CentOS/Arch/Gentoo/slackware you should download the Python Qt 4
-            version. You can type "gcc -v" to findout which version of GNU
-            Compiler Collection you have installed. </p>
+            PyLNP interface. </p>
         </div>
         <div class="container">
             <h2 id="download">Current Linux Download:</h2>
@@ -38,8 +33,8 @@
                 <div class="span5 pull-left">
                     <h4>x64 PyLNP Interface</h4>
                     <ul>
-                        <li><p><a class="btn btn-success" href="./download/x64/LNP-PyLNP-linux-v0.40.15r1.p454qt5.zip">
-                            <i class="fa fa-download fa-2x"></i>LNP DF v0.40.16 (DFhack GCC 4.5.4)
+                        <li><p><a class="btn btn-success" href="./download/x64/LNP-PyLNP-linux-v0.40.19r2.p454qt4.zip">
+                            <i class="fa fa-download fa-2x"></i>LNP DF v0.40.19 (DFhack GCC 4.5.4)
                         </a></p></li>
                     </ul>
                 </div>
@@ -47,8 +42,7 @@
                     <h4>i686 PyLNP Interface</h4>
                     <ul>
                         <li><p><a class="btn btn-success" href="">
-                            <i class="fa fa-download fa-2x"></i>LNP DF v0.40.16
-                            (DFhack GCC 4.5.4)</a></p></li>
+                            <i class="fa fa-download fa-2x"></i>LNP DF v0.40.19 (DFhack GCC 4.5.4)</a></p></li>
                     </ul>
                 </div>
                 <div class="span12">
@@ -71,14 +65,11 @@
             <h3>Included Mods</h3>
             <ul>
                 <li><b>Graphical User Interface of Package:</b></li>
-                <li><a
-                    href='http://www.bay12forums.com/smf/index.php?topic=140808.0'>Pidgeot's PyLNP 0.8b Lazy Newb Pack Python interface</a></li>
+                <li><a href='http://www.bay12forums.com/smf/index.php?topic=140808.0'>Pidgeot's PyLNP 0.8b Lazy Newb Pack Python interface</a></li>
                     <li><b>Utilities:</b></li>
                     <ul>
-                        <li><a
-                            href="http://www.bay12forums.com/smf/index.php?topic=139553.0">DFhack Linux V0.40.16 R1 (gcc 4.5.4)</a></li>
-                        <li><a
-                            href="https://github.com/splintermind/Dwarf-Therapist/tree/DF2014">Dwarf Therapist v28</a> </li>
+                        <li><a href="http://www.bay12forums.com/smf/index.php?topic=139553.0">DFhack Linux V0.40.19 R2 (gcc 4.5.4)</a></li>
+                        <li><a href="https://github.com/splintermind/Dwarf-Therapist/tree/DF2014">Dwarf Therapist v28</a> </li>
                         <li><a href="http://df.zweistein.cz/soundsense/">Soundsenser43</a> (need to run auto update on first use)</li>
                         <li><a href="http://www.joelpt.net/quickfort/">qfconvert 2.04</a></li>
                         <li><a href="http://www.bay12forums.com/smf/index.php?topic=55025.0">chromafort 2010-04-25</a></li>
@@ -122,7 +113,46 @@
                 <div class="container">
      
                     <div id="patchnotes">
-
+                        <h4>Release notes for 0.40.19 (November 26, 2014):</h4>
+                        <p>Here is another release for November, mostly related to livestock.</p>
+                        <h4>New stuff</h4>
+                        <ul>
+                            <li> Added gelding and associated profession/skill/etc.</li>
+                        </ul>
+                        <h4>Other bug fixes/tweaks</h4>
+                        <ul>
+                            <li>Showed animal gender symbols in a few more places</li>
+                            <li>Got rid of mating-at-a-distance</li>
+                            <li>Added drink tab to kitchen screen</li>
+                            <li>Moved all remaining announcements to announcements.txt</li>
+                            <li>Added ability add/remove bp flags to set bp group</li>
+                            <li>Tweaked crowded pasture anger counter</li>
+                            <li>Stopped liaison from inserting own gender into position change news</li>
+                            <li>Added more work-arounds for compiler issue (fixing broken vault weapons and other problems)</li>
+                        </ul>
+                        <h4>Release notes for 0.40.18 (November 20, 2014):</h4>
+                        <p>The flag changes brought forth a compiler issue on Windows (breaking smelting, for example). Hopefully it'll work better now.</p>
+                        <h4>Release notes for 0.40.17 (November 19, 2014): </h4>
+                        <p>Here is another friendly little release.</p>
+                        Major bug fixes</h4>
+                        <ul>
+                        <li>Fixed collapsing shrines</li>
+                        <li>Fixed army crash/bad behavior near the right/lower edge of the map</li>
+                        <li>Fixed a conversation crash related to uncivilized people/creatures trying to sell something in the market</li>
+                        <li>Made people only jump into actual conflicts, rather than animal encounters and training events</li>
+                        </ul>
+                        <h4>Other bug fixes/tweaks</h4>
+                        <ul>
+                        <li>Made stress levels drop faster the longer no stressors are applied</li>
+                        <li>Made gathering plants from the ground add to herbalist skill properly again</li>
+                        <li>Made plants that grow in winter-spring plantable at all proper times (Quietust)</li>
+                        <li>Optimized flag checks for non-windows OSs (ag)</li>
+                        <li>Fixed problem deleting stockpile links in the case that stockpile had multiple give/take settings</li>
+                        <li>Fixed blinking behavior for stockpiles/zones vs. ramps/stairs</li>
+                        <li>Fixed blinking behavior for designations vs. anything obscuring them</li>
+                        <li>Fixed double untranslated name in thoughts screen</li>
+                        <li>Fixed elf diplomacy typo</li>
+                        </ul>
                     </div>
 
                     <div id="requirements">
