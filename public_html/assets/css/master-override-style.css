@@ -1,0 +1,126 @@
+/* 
+ *  Style Sheet for Beaubouchard.com
+ *  Author: Beau Bouchard (@beaubouchard)
+ *  Author URI: http://beaubouchard.com
+ *
+ *  Description: 
+ */
+
+/* =Global
+ * ------------------------------------------------------------------*/
+
+html,body,form,fieldset,h1,h2,h3,h4,h5,h6,pre,blockquote,ul,ol,dl,address,.more-link {
+    color:#323232;
+    margin:0;
+    padding:0;
+}
+
+a,a:link,a:visited {
+    outline:none;
+    text-decoration:none;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    color:#323232;
+    font-weight:400;
+}
+
+blockquote:before,blockquote:after {
+    content:"";
+}
+
+input::-moz-focus-inner /*Remove button padding in FF*/ {
+    border:0;
+    padding:0;
+}
+
+ #header {
+    height:100%;
+    background-color: #323232;
+    min-height:80px;
+    font-weight:400;
+    text-align:right;
+    font-size:16px;
+    line-height:1.5;
+    color:#FFF;
+    
+    margin:0 auto;
+    padding-left: 17%;
+    
+    padding-bottom: 15px;
+}
+#header .container {
+    font-family:Helvetica, Arial , sans-serif;
+    background-color: #323232;
+    color:#FFF;
+    letter-spacing:1.5px;
+    font-size:12px;
+    line-height:16px;
+    margin:  -5px 0 5px 0;
+    padding: 10px 0 0 0;
+    text-align: left;
+}
+
+#header .container li {
+    list-style-type:none;
+    display:inline;
+    color:#FFF;
+    margin:0;
+    padding:0 1em 0 0;
+}
+
+#header .container h1 {
+    color:#FFF;
+    font-weight:500;
+    font-size:24px;
+    letter-spacing:5px;
+    margin-top:-5px;
+    text-indent:2em;
+    padding:0;
+}
+
+#header .container h2 {
+    color:#FFF;
+    font-weight:200;
+    font-size:18px;
+    letter-spacing:3px;
+    margin-top:-14px;
+    text-indent:4em;
+    padding:0;
+}
+
+#header .container a {
+    text-decoration:none;
+    color:#FFF;
+}
+
+#header .container .haccent {
+    font-size:28px;
+}
+
+#header .selected a {
+    display:inline;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+#main {
+    height: 100%;
+    min-height: 600px;
+    padding-top: 5%;
+}
+
+#main .container {
+    width: 65%;
+    margin:0 auto;
+}
+
+#main .container p {
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+

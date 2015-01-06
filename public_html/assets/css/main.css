@@ -1,0 +1,59 @@
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, pre, blockquote, ul, ol, dl, address, .more-link  {
+    color:#323232;
+    margin:0;
+    padding:0;
+    background-color: #323232;
+}
+a, a:link, a:visited {
+    color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#323232;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+input::-moz-focus-inner /*Remove button padding in FF*/
+{ 
+    border: 0;
+    padding: 0;
+}
+/* =Layout
+ *
+ * ------------------------------------------------------------------*/
+#header h1 {  
+    font-family: "helvetica", arial, verdana, sans-serif;
+    color: rgba(222,222,222,0.5);
+    font-weight:200; 
+    padding: 0px;  
+    font-size: 32px;  
+    letter-spacing: 11px; 
+    margin-left: 40%;   
+    margin-top: 8%; 
+    width:100%;  
+    z-index:5;
+    position:absolute; top:50px; 
+    background: rgb(0, 0, 0) transparent;
+    background-color:rgba(0,0,0,0);
+ }
+#nav li {  list-style-type: none; padding: 0px; margin-left: 30%;  display: inline; color: #FFFFFF;  }
+img {
+    width: 100%;
+    height: 100%;
+}
+#rabbit {
+    width: 1em;
+    height: 0.9em;
+    z-index:5;
+     position:absolute; bottom:0px; right:0px;
+}
+#background {
+    z-index: 1;
+}
+
