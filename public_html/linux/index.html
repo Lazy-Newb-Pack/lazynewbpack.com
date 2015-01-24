@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,9 +36,8 @@
                     <ul>
                         <li>
                         	<a class="btn btn-primary btn-lg"
-	                            href="./04019/download/x64/04019r3-x64.zip">
-	                            <span class="fa fa-download fa-lg"></span> x64 LNP DF v0.40.19</a></li>
-
+	                            href="http://goo.gl/hyXFdC">
+	                            <span class="fa fa-download fa-lg"></span>x64 LNP DF v0.40.23 R2</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,9 +48,8 @@
                     <h4>x64 PyLNP Interface</h4>
                     <ul>
                         <li><p><a class="btn btn-success"
-                            href="./04019/download/x64/04019r3-x64.zip">
-                            <i class="fa fa-download fa-lg"></i> LNP DF v0.40.19 
-                        </a></p>
+                            href="http://goo.gl/hyXFdC">
+                            <i class="fa fa-download fa-lg"></i>x64 LNP DF v0.40.23 R2</a></p>
 						</li>
                     </ul>
                 </div>
@@ -58,8 +57,8 @@
                     <h4>i686 PyLNP Interface</h4>
                     <ul>
                         <li><p><a class="btn btn-success"
-                            href="./04019/download/i686/04019r3-i686.zip">
-                            <i class="fa fa-download fa-lg"></i> LNP DF v0.40.19 </a></p>
+                            href="http://goo.gl/2EOq63">
+                            <i class="fa fa-download fa-lg"></i>i686 LNP DF v0.40.23 R2</a></p>
                         </li>
                     </ul>
                 </div>
@@ -68,6 +67,7 @@
                 <div class="span12">
                     <h2>Older Versions of Linux Lazy Newb Pack</h2>
                     <ul id="olderversion">
+                        <li><i class="fa fa-download fa-lg"></i> <a href='./04019/'>Linux Lazy Newb Pack for DF V0.40.19</a></li>
                         <li><i class="fa fa-download fa-lg"></i> <a href='./04016/'>Linux Lazy Newb Pack for DF V0.40.16</a></li>
                         <li><i class="fa fa-download fa-lg"></i> <a href='./04015/'>Linux Lazy Newb Pack for DF V0.40.15</a></li>
                         <li><i class="fa fa-download fa-lg"></i> <a href='./04014/'>Linux Lazy Newb Pack for DF V0.40.14</a></li>
@@ -132,50 +132,55 @@
                 <div class="container">
      
                     <div id="patchnotes">
-                        <h4>Release notes for 0.40.19 (November 26, 2014):</h4>
-                        <p>Here is another release for November, mostly related to livestock.</p>
-                        <p><b>New stuff</b></p>
-                        <ul>
-                            <li><p>Added gelding and associated profession/skill/etc.</p></li>
-                        </ul>
-                        <p><b>Other bug fixes/tweaks</b></p>
-                        <ul>
-                            <li><p>Showed animal gender symbols in a few more places</p></li>
-                            <li><p>Got rid of mating-at-a-distance</p></li>
-                            <li><p>Added drink tab to kitchen screen</p></li>
-                            <li><p>Moved all remaining announcements to announcements.txt</p></li>
-                            <li><p>Added ability add/remove bp flags to set bp group</p></li>
-                            <li><p>Tweaked crowded pasture anger counter</p></li>
-                            <li><p>Stopped liaison from inserting own gender into position change news</p></li>
-                            <li><p>Added more work-arounds for compiler issue (fixing broken vault weapons and other problems)</p></li>
-                        </ul>
-                        <h4>Release notes for 0.40.18 (November 20, 2014):</h4>
-                        <p>The flag changes brought forth a compiler issue on Windows (breaking smelting, for example).  Hopefully it'll work better now.</p>
-                        <h4>Release notes for 0.40.17 (November 19, 2014):</h4>
-                        <p>Here is another friendly little release.</p>
-                        <p><b>Major bug fixes</b></p>
-                        <ul>
-                            <li><p>Fixed collapsing shrines</p></li>
-                            <li><p>Fixed army crash/bad behavior near the right/lower edge of the map</p></li>
-                            <li><p>Fixed a conversation crash related to uncivilized people/creatures trying to sell something in the market</p></li>
-                            <li><p>Made people only jump into actual conflicts, rather than animal encounters and training events</p></li>
-                        </ul>
-                        <p><b>Other bug fixes/tweaks</b></p>
-                        <ul>
-                            <li><p>Made stress levels drop faster the longer no stressors are applied</p></li>
-                            <li><p>Made gathering plants from the ground add to herbalist skill properly again</p></li>
-                            <li><p>Made plants that grow in winter-spring plantable at all proper times (Quietust)</p></li>
-                            <li><p>Optimized flag checks for non-windows OSs (ag)</p></li>
-                            <li><p>Fixed problem deleting stockpile links in the case that stockpile had multiple give/take settings</p></li>
-                            <li><p>Fixed blinking behavior for stockpiles/zones vs. ramps/stairs</p></li>
-                            <li><p>Fixed blinking behavior for designations vs. anything obscuring them</p></li>
-                            <li><p>Fixed double untranslated name in thoughts screen</p></li>
-                            <li><p>Fixed elf diplomacy typo</p></li>
-                        </ul>
-                        <h4>Release notes for 0.40.16 (November 12, 2014):</h4>
-                        <p>The purpose of this release is to make stress from long-term separation due to goblin snatching less severe and to stop attackers from always winning in post-world-generation non-player battles.  The fix for the latter could not be done cleanly at this time, so the battle readouts in legends are a little off compared to the ones from world-gen, but defenders are very often successful now.  I also fixed some missing aunts/uncles/cousins in the listing of relatives.</p>
-                    </div>
+                        <h4>Release notes for 0.40.23 (December 21, 2014):</h4>
+			<p>I've sorted out the "camp forever" errorlog message many of you have probably seen. Once dwarf/adventure mode began, there was a misflagging that caused various armies to lose their way. It doesn't directly affect invaders camping between marches, but armies lost to the bug (on their way home, for instance, or attacking villages) wouldn't be available for invasions later. This doesn't affect refugee groups that have nowhere to go... they still hang out and sleep all day.
+			<p><b>Major bug fixes </b></p>
+			<ul>
+				<li>Multi-item jobs like artifact moods, forging breastplates and smelting pig iron should work now</li>
+			</ul>
 
+			<p><b>Other bug fixes/tweaks</b></p>
+			<ul>
+				<li>Made toggle marker behave like toggle engraving mouse-wise</li>	
+			</ul>
+			<h4>Release notes for 0.40.22 (December 19, 2014):</h4>
+			<p>This fixes some large and small problems with yesterday's release. Save corruption was quite possible, so upgrading is important! You can still bring your old saves from 0.40.03+ into this new version. 
+			<p><b>Major bug fixes </b></p>
+			<ul>
+				<li>Made hauling jobs that chain to other hauling jobs respect job postings, instead of causing crashes and other horror</li>
+				<li>Fixed stair/ramp removal</li>		
+			</ul>
+			<p><b>Other bug fixes/tweaks</b></p>
+			<ul>
+				<li>Made digging look up/down for continuing jobs</li>
+				<li>Fixed problem with harvest jobs stealing dwarves from each other</li>
+			</ul>
+			<h4>Release notes for 0.40.21 (December 19, 2014):</h4>
+			<p>Here is the job priorities release. It should work fine with old saves, though existing hauling jobs may need to work themselves out for a bit. Further job prioritization work can be done when we get through the framework for start scenarios, since we'll better understand how dwarves fit into the fortress at that time. </p>
+			<p><b>New stuff</b></p>
+			<ul>
+				<li>New job selection process where dwarves choose important tasks with more regularity</li>
+				<li>Very important jobs can remove dwarves from less important jobs</li>
+				<li>Ability to prioritize a job so that it gets done immediately</li>
+				<li>Mining, engraving and other designation jobs can now be prioritized numerically</li>
+				<li>Designation jobs can be placed in a "marker only" mode, marker can be removed later to start work</li>
+				<li>Mining jobs can be set to automatically follow veins and clusters</li>
+				<li>Mining designation can be set to only select visible gems or useful stone</li>	
+			</ul>
+			<p><b>Major bug fixes </b></p>
+			<ul>
+				<li>Fixed crash related to armies failing to take over villages</li>
+			</ul>
+			<p><b>Other bug fixes/tweaks</b></p>
+			<ul>
+				<li>Hauling jobs that used to need a held container now allow the dwarf to carry many items without a container</li>
+				<li>Building jobs can swipe items from hauling jobs if the item is not held</li>
+				<li>Wall/floor construction and road construction use new skill-free labor settings</li>
+			</ul>
+				<h4>Release notes for 0.40.20 (December 18, 2014):</h4>
+				<p>I added some different mining designations -- gems only (in the selected area as usual, unhidden tiles), economically useful only (including gems), and an automated designation that spreads to the same material when a job finishes. This can't be placed on layer-wide walls (so you don't mine out all the chalk in the universe), but it can be placed on walls which are part of large oval clusters (which the dwarf will proceed to mine out entirely), vein walls and small cluster walls. Road and wall/etc. construction jobs use two skill-free labor settings now, since skill didn't matter for constructions anyway.</p>
+				<p>Let's see... jobs that are assigned in workshops can swipe items from haul jobs now, provided the hauler doesn't make it to the item before the item is needed. I've also replaced the grab-a-container-and-then-collect-pile-items haul jobs with the ability for dwarves to haul multiple items without a container (as in fruit picking). The piece that's still missing is the use of a wheelbarrow to avoid, for example, dwarves staggering around with tons of bars, but I'm going to put that off since it could be a quagmire. This hauling change only applies to the stockpile container jobs (bin/bag/barrel), since it was the one that caused the most trouble for people and other jobs are more difficult to adapt.</p>
+			</div>
                     <div id="requirements">
                     </div>
 
@@ -191,6 +196,7 @@
                             <li><a href="https://github.com/Dwimenor/">@Dwimenor</a>Created a workaround for LNP, as well as providing linux support</li>
                             <li><a href="https://github.com/fricy/">@fricy</a>Maintains the MacNewbie pack Reborn as well as supporting essential gaphic repo</li>
                             <li><a href="http://www.joelpt.net/quickfort/">@joelpt</a> Joel Thornton Created Quickfort 2.x</li>
+                            <li><a href="https://github.com/lethosor/">@Lethosor</a> Works on DFhack, DFwiki, and maintainer of the LNP</li>
                             <li><a href="https://github.com/LucasUP/">@LucasUP</a> Lucas Paquette made the orginal windows LNP </li>
                             <li><a href="https://github.com/splintermind/">@splintermind</a> Josh, part time wizard works dilligently on Dwarf Therapist</li>
                             <li><a href="http://www.bay12forums.com/smf/index.php?topic=126076.0">@PeridexisErrant</a></li>
