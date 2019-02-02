@@ -1,4 +1,4 @@
 lazynewbpack.com
 ================
 
-The files for http://lazynewbpack.com/
+The files for the old lazynewbpack.com
